@@ -6,5 +6,6 @@
         <page name='Gigasecond'/>
         <page name='DifferenceOfSquares'/>
         <page name='RNA'/>
+        <page name='SumOfMultiples'/>
     </pages>
 </playground>

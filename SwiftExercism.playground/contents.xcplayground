@@ -3,5 +3,8 @@
     <pages>
         <page name='TwoFer'/>
         <page name='LeapYear'/>
+        <page name='Gigasecond'/>
+        <page name='DifferenceOfSquares'/>
+        <page name='RNA'/>
     </pages>
 </playground>

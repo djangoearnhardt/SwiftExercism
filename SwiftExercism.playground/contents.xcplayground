@@ -7,5 +7,6 @@
         <page name='DifferenceOfSquares'/>
         <page name='RNA'/>
         <page name='SumOfMultiples'/>
+        <page name='WordCount'/>
     </pages>
 </playground>

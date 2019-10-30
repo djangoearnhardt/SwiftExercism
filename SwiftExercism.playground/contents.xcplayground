@@ -10,5 +10,6 @@
         <page name='WordCount'/>
         <page name='Allergies'/>
         <page name='SpaceAge'/>
+        <page name='Bob'/>
     </pages>
 </playground>

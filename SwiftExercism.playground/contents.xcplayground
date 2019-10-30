@@ -8,5 +8,7 @@
         <page name='RNA'/>
         <page name='SumOfMultiples'/>
         <page name='WordCount'/>
+        <page name='Allergies'/>
+        <page name='SpaceAge'/>
     </pages>
 </playground>

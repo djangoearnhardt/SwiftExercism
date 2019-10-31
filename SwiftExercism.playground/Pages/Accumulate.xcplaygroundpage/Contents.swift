@@ -20,4 +20,24 @@ import Foundation
  Keep your hands off that collect/map/fmap/whatchamacallit functionality provided by your standard library! Solve this one yourself using other basic tools instead.
  */
 
+extension Array {
+    func accumulate<T>(_ task: (Element) -> T) -> [T] {
+        var results = [T]()
+        for item in self {
+            results.append(task(item))
+        }
+        return results
+    }
+}
+
+let letters = ["mochi", "kabochi"]
+letters.accumulate { x in
+    x.uppercased()
+}
+
+let squares = [2, 3, 4, 5]
+squares.accumulate { x in
+    x * x
+}
+
 //: [Next](@next)

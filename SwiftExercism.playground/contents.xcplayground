@@ -11,5 +11,7 @@
         <page name='Allergies'/>
         <page name='SpaceAge'/>
         <page name='Bob'/>
+        <page name='Grains'/>
+        <page name='Hamming'/>
     </pages>
 </playground>

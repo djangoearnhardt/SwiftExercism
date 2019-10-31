@@ -13,5 +13,7 @@
         <page name='Bob'/>
         <page name='Grains'/>
         <page name='Hamming'/>
+        <page name='NucleotideCount'/>
+        <page name='Accumulate'/>
     </pages>
 </playground>

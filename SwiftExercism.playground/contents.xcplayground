@@ -17,5 +17,6 @@
         <page name='Accumulate'/>
         <page name='Raindrops'/>
         <page name='GradeSchool'/>
+        <page name='ETL'/>
     </pages>
 </playground>

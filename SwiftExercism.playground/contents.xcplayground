@@ -19,5 +19,6 @@
         <page name='GradeSchool'/>
         <page name='ETL'/>
         <page name='IsoGram'/>
+        <page name='ListOps'/>
     </pages>
 </playground>

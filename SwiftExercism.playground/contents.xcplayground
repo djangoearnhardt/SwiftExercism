@@ -18,5 +18,6 @@
         <page name='Raindrops'/>
         <page name='GradeSchool'/>
         <page name='ETL'/>
+        <page name='IsoGram'/>
     </pages>
 </playground>

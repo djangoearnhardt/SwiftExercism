@@ -15,5 +15,6 @@
         <page name='Hamming'/>
         <page name='NucleotideCount'/>
         <page name='Accumulate'/>
+        <page name='Raindrops'/>
     </pages>
 </playground>

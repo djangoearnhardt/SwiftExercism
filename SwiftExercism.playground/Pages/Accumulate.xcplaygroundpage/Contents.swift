@@ -22,8 +22,10 @@ import Foundation
 
 extension Array {
     func accumulate<T>(_ task: (Element) -> T) -> [T] {
+        // initialize a mutable array for generic type T
         var results = [T]()
         for item in self {
+            // appends items to array after doing task on them
             results.append(task(item))
         }
         return results

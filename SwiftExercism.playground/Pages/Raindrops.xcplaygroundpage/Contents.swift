@@ -11,21 +11,24 @@ import Foundation
  If the number does not have 3, 5, or 7 as a factor, just pass the number's digits straight through.
  */
 
-func raindrops(from number: Int) {
+func raindrops(from number: Int) -> String{
     var factorArray: [Int] = []
-    for divisor in 1...number {
+    var statement = ""
+    for divisor in 2...number {
         if number % divisor == 0 {
             factorArray.append(divisor)
         }
     }
     for number in factorArray {
+        
         switch number {
-        case _ where number == 3: print("Pling")
-        case _ where number == 5: print("Plang")
-        case _ where number == 7: print("Plong")
-        default: print("\(number)")
+        case _ where number == 3: statement.append("Pling")
+        case _ where number == 5: statement.append("Plang")
+        case _ where number == 7: statement.append("Plong")
+        default: continue
         }
     }
+    return statement.count > 0 ? statement : String(describing: number)
 }
 
 raindrops(from: 21)

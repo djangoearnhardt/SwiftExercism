@@ -16,5 +16,6 @@
         <page name='NucleotideCount'/>
         <page name='Accumulate'/>
         <page name='Raindrops'/>
+        <page name='GradeSchool'/>
     </pages>
 </playground>
